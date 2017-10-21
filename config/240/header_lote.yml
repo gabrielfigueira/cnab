@@ -1,0 +1,29 @@
+banco: 0..2
+lote: 3..6
+registro: 7..7
+tipo_operacao: 8..8
+tipo_servico: 9..10
+res_cnab1: 11..12
+layout_lote: 13..15
+res_cnab2: 16..16
+tipo_empresa: 17..17
+num_empresa: 18..31
+cod_beneficiario: 32..32
+cod_beneficiario_cedente: 33..38
+cod_caixa: 39..53
+mantenedora_agencia: 54..58
+mantenedora_dv: 59..59
+benefeciario_cod: 60..60  # Código do Beneficiário no Banco   -   ´0´ primeiro numero do cedente
+convenio_cod: 61..66  # Código do Convênio no Banco     - código cedente
+modelo_personalizado_cod: 67..73  # Código do Modelo Personalizado    - 0
+cod_caixa: 74..74  # Uso Exclusivo CAIXA         - 0
+nome_empresa: 75..104 #   Nome da Empresa           -
+federacao_cod: 105..105 #  Código da Federacao         - 2
+mensagem_1: 106..144 #  Mensagem 1              - 106 a 110 = 00137 = (codigo da federacao, já implando no afsys)
+confederacao_cod: 145..145 #  Codigo da Confederacão        - 3
+mensagem_2: 146..184 #  Mensagem 2              - 146 a 150 = 00011 = (codigo da confederacao, já implando no afsys)
+mensagem_3: 146..184 #  Mensagem 2              - 151 a 184 =  nome da confederacao
+numero_retorno: 185..196 #  Número Retorno            - no arquivo retorno está vindo zeros
+data_gracavacao: 197..204 #  Data de Gravação Retorno      -
+data_credito: 205..212 #  Data do Crédito           - está vindo zerado
+dados_febraban: 213..239 #  Uso Exclusivo FEBRABAN/CNAB     - brancos

@@ -13,7 +13,7 @@ res_cnab3: 30..32  #  Uso Exclusivo da CAIXA        - brancos
 banco_pagador: 33..35  # Número do Banco de Pagadores    - 0 (acho que será o banco aonde o contribuinte pagou)
 res_cnab4: 36..39  #  Uso Exclusivo da CAIXA        - brancos
 modalidade_nn: 40..41  #  Modalidade Nosso Número       - creio que seja o nosso número (14)
-identificacao_titulo: 42..56  #Identificação do Título no Banco  - nosso numero total
+id_titulo: 42..56  #Identificação do Título no Banco  - nosso numero total
 res_cnab5: 57..57  #  Uso Exclusivo da CAIXA        - brancos
 cod_carteira: 58..58  #  Código da Carteira          - ‘1’ = Cobrança Simples
 doc_cobranca: 59..62  #Número do Documento de Cobrança   - 59 a 69
@@ -21,7 +21,7 @@ competencia_mes: 63..64  #competencia MES
 brancos: 65..65  # brancos
 competencia_ano: 66..69  #  competencia ANO
 res_cnab6: 70..73  #Uso Exclusivo CAIXA         - brancos
-data_vencimento: 74..81  # Data de Vencimento do Título    -
+vencimento: 74..81  # Data de Vencimento do Título    -
 valor_nominal: 82..96  # Valor Nominal do Título
 cod_banco_pagamento: 97..99  # Código do Banco           - banco local de pagamento.
 cod_agencia_recebedora: 100..104 # Código da Agência Cobr/Receb    - agencia recebedora.
@@ -29,9 +29,9 @@ dv_agencia: 105..105 # Digito Verif da Agência Cobr/Rec  -
 identificacao_empresa: 106..130 # Identificação do Título na Empresa  - brancos
 cod_moeda: 131..132 # Código da Moeda
 tipo_inscricao: 133..133 # Tipo de Inscrição         - ‘1’ = CPF; ‘2’ = CGC / CNPJ; creio eu quando for registrado.  (está vindo zerado)
-numero_inscricao: 134..148 # Número de Inscrição         - CNPJ OU CPF
+num_inscricao: 134..148 # Número de Inscrição         - CNPJ OU CPF
 nome: 149..188 # Nome                - não faço ideia da numeração que aparece.
 res_cnab7: 189..198 # Uso Exclusivo FEBRABAN/CNAB     - não faço ideia da numeração que aparece.
-valor_tarifa: 199..213 # Valor da Tarifa / Custas      - ok
+tarifa: 199..213 # Valor da Tarifa / Custas      - ok
 identfi_rejeicao: 214..223 # Identificação para Rejeições, Tarifas, Custas, Liquidação e Baixas          - está vindo zerado C047
 res_cnba8: 224..239 # Uso Exclusivo FEBRABAN/CNAB     - brancos

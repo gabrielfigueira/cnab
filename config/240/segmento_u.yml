@@ -16,10 +16,10 @@ cod_entidade: 80..84 # Código sindical da Entidade Sindical  - C106  -   CÓDIG
 tipo_arrecadacao: 85..85 # Tipo de Arrecadação “D”=Direto/”I”Indireto  - INDIRETA USADA SOMENTE PARA Federacao e confederacao
 valor_pago: 86..100 #  Valor Pago pelo Pagador         - c052 -
 valor_liquido: 101..115 # Valor Líquido a ser Creditado     -
-valor_multa: 116..130 # Juros / Multa / Encargos        - C048
-valor_outros: 131..145 # Valor de Outros Créditos        - C055
+valor_credito: 116..130 # Juros / Multa / Encargos        - C048
+outras_despesas: 131..145 # Valor de Outros Créditos        - C055
 data_ocorrencia: 146..153 # Data da Ocorrência
-data_efetivacao_credito: 154..161 # Data da Efetivação do Crédito     - data que o dinheiro vai cair na conta.
+data_credito: 154..161 # Data da Efetivação do Crédito     - data que o dinheiro vai cair na conta.
 res_cnab_2: 162..165 # Uso Exclusivo CAIXA           - numeração que eu não faço ideia
 data_debito_tarifa: 166..173 # Data do Débito da Tarifa        - está vindo brancos
 cod_pagador: 174..188 # Código do Pagador no Banco        - C080
